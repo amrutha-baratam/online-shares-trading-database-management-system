@@ -1,0 +1,129 @@
+BANK:
+1) insert into bank(bankid,branchid,bankname,state,phno,email)values(1001,101,"royalbankcanada","canada",10146873,"royalbankcanada@gmail.com");
+2)insert into bank(bankid,branchid,bankname,state,phno,email)values(1002,101,"bankofamerica","america",101389327,"americanbank@gmail.com");
+3) insert into bank(bankid,branchid,bankname,state,phno,email)values(1003,10
+1,"industrial&commercialbankofchina","china",21934804,"industrialcommercialbank@gmail.com");
+4) insert into bank(bankid,branchid,bankname,state,phno,email)values(1004,10
+1,"bankofindia","india",893478532,"indianbank@gmail.com");
+
+SHARE_COMPANY:
+1) insert into share_company values(2001,"bankofamerica");
+2) insert into share_company values(2002,"honeywellinternational");
+3) insert into share_company values(2003,"americaninternationalgroup");
+4) insert into share_company values(2004,"TEConnectivity");
+5) insert into share_company values(2005,"Bristowgroup");
+
+BANKACCOUNT:
+1) insert into bankaccount values(3001,"chandrasekhar",1004,13402331);
+2) insert into bankaccount values(3002,"jones",1001,9483890123);
+3) insert into bankaccount values(3003,"jackoline",1001,849310384);
+4) insert into bankaccount values(3004,"kimhyunjung",1003,89371084394);
+5) insert into bankaccount values(3005,"leeminhoo",1003,24783947894);
+6) insert into bankaccount values(3007,"jkrowling",1002,398473294);
+7) insert into bankaccount values(3006,"manojkumar",1001,389479);
+8) insert into bankaccount values(3008,"ramesh",1001,2938203);
+9) insert into bankaccount values(3009,"danielradcliff",1002,2390480);
+10) insert into bankaccount values(3010,"gujunpyo",1003,10238024);
+11) insert into bankaccount values(3011,"svetlana",1001,30948302);
+
+TRADER:
+1) insert into trader values(4001,"ramesh","india","mumbai","rameshtrades123
+@gmail.com",985403034);
+2) insert into trader values(4002,"danielradcliff","america","losangels","da
+niel@gmail.com",1018323432);
+3) insert into trader values(4003,"gujunpyo","china","beijing","junpyojun@gm
+ail.com",0248932594);
+4) insert into trader values(4004,"svetlana","america","chicago","svetlana@g
+mail.com",394739592);
+
+DMATACCOUNT:
+1) insert into dmataccount values(5001,"11@5001#","jones");
+2) insert into dmataccount values(5002,"22@5002#","kimhyunjung");
+3) insert into dmataccount values(5003,"33@5003#","chandrasekhar");
+4) insert into dmataccount values(5004,"44@5004#","leeminhoo");
+5) insert into dmataccount values(5005,"55@5005#","manojkumar");
+6) insert into dmataccount values(5006,"66@5006#","ramesh");
+7) insert into dmataccount values(5007,"77@5007#","danielradcliff");
+8) insert into dmataccount values(5008,"88@5008#","gujunpyo");
+9) insert into dmataccount values(5009,"99@5009#","svetlana");
+
+CUSTOMER:
+1) insert into customer values(6001,"jones","america","houstan",101832479,"j
+ones@gmail.com");
+2) insert into customer values(6002,"kimhyunjung","china","beijing",20839031
+3,"hyun@gmail.com");
+3) insert into customer values(6003,"chandrasekhar","india","kerala",9882234
+42,"sekhar@gmail.com");
+4) insert into customer values(6004,"leeminhoo","china","beijing",208930843,
+"leemin@gmail.com");
+5) insert into customer values(6005,"manojkumar","india","banglore",89236842
+3,"manoj@gmail.com");
+
+SHARE:
+1) insert into share values(7001,32083,5002,4003,2001);
+2) insert into share values(7002,3294243,5001,4003,2001);
+3) insert into share values(7003,69504,5003,4003,2004);
+4) insert into share values(7004,2313,5004,4002,2004);
+5) insert into share values(7005,29480,5005,4004,2004);
+6) insert into share values(7006,82498,5006,4003,2004);
+7) insert into share values(7007,1083219,5007,4001,2003);
+8) insert into share values(7008,9138924,5008,4001,2003);
+9) insert into share values(7009,2042,5009,4001,2003);
+
+CUSTOMER_SHARES:
+1) insert into customer_shares values(6001,7002);
+2) insert into customer_shares values(6001,7004);
+3) insert into customer_shares values(6001,7005);
+4) insert into customer_shares values(6001,7007);
+5) insert into customer_shares values(6002,7001);
+6) insert into customer_shares values(6002,7003);
+7) insert into customer_shares values(6002,7004);
+8) insert into customer_shares values(6002,7008);
+9) insert into customer_shares values(6003,7002);
+10) insert into customer_shares values(6003,7009);
+11) insert into customer_shares values(6003,7004);
+12) insert into customer_shares values(6004,7001);
+13) insert into customer_shares values(6004,7002);
+14) insert into customer_shares values(6004,7003);
+15) insert into customer_shares values(6005,7004);
+16) insert into customer_shares values(6005,7005);
+17) insert into customer_shares values(6005,7008);
+
+CUSTOMER_DMATACCOUNT:
+1) insert into customer_dmataccount values(6001,5001);
+2) insert into customer_dmataccount values(6002,5002);
+3) insert into customer_dmataccount values(6003,5003);
+4) insert into customer_dmataccount values(6004,5004);
+5) insert into customer_dmataccount values(6005,5005);
+
+CUSTOMER_SHARE_DMATACCOUNT:
+1) insert into customer_share_dmataccount values(6001,7002,5001);
+2) insert into customer_share_dmataccount values(6001,7001,5001);
+3) insert into customer_share_dmataccount values(6001,7003,5001);
+4) insert into customer_share_dmataccount values(6002,7004,5002);
+5) insert into customer_share_dmataccount values(6002,7009,5002);
+6) insert into customer_share_dmataccount values(6003,7009,5003);
+7) insert into customer_share_dmataccount values(6004,7005,5004);
+8) insert into customer_share_dmataccount values(6004,7006,5004);
+9) insert into customer_share_dmataccount values(6004,7007,5004);
+10) insert into customer_share_dmataccount values(6005,7008,5005);
+
+CUSTOMER_MONEY_BANK:
+1) insert into customer_money_bank values(6001,3002,1001);
+2) insert into customer_money_bank values(6002,3004,1003);
+3) insert into customer_money_bank values(6003,3001,1004);
+4) insert into customer_money_bank values(6004,3005,1003);
+5) insert into customer_money_bank values(6005,3006,1001);
+
+BANK_PROVIDE_DMATACCOUNT:
+1) insert into bank_provide_dmataccount values(5001,1002);
+2) insert into bank_provide_dmataccount values(5002,1003);
+3) insert into bank_provide_dmataccount values(5003,1004);
+4) insert into bank_provide_dmataccount values(5004,1003);
+5) insert into bank_provide_dmataccount values(5005,1001);
+6) insert into bank_provide_dmataccount values(5006,1002);
+7) insert into bank_provide_dmataccount values(5007,1002);
+8) insert into bank_provide_dmataccount values(5008,1003);
+9) insert into bank_provide_dmataccount values(5009,1004);
+
+
